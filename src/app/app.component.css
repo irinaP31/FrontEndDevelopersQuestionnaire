@@ -16,3 +16,9 @@ form{
     font-size: 12px;
 }
 
+.submit{
+    height: 45px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+

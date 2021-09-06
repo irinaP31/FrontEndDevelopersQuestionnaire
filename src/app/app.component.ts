@@ -36,7 +36,6 @@ export class AppComponent implements OnInit {
   onSubmit() {
     let data: string;
     data = this.questionnaireService.transformDate(this.form.value.userBirthday);
-    debugger
     if (this.form.controls.hobbies.value.length == 0 || this.form.invalid) {
       this.hobbyFilled=true;
       this.addHobbies();
