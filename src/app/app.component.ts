@@ -50,7 +50,7 @@ export class AppComponent implements OnInit {
                                                                   this.form.value.hobbies
 
       ));
-
+      this.form.reset();
     }
   }
 

@@ -112,6 +112,6 @@
 
     <button type="button" (click)="addHobbies()">Добавить хобби</button>
     <br>
-    <input class="submit" type="submit" [disabled]="form.invalid" value="Отправить">
+    <input class="submit" type="submit" [disabled]="form.invalid || form.pending" value="Отправить">
   </div>
 </form>
