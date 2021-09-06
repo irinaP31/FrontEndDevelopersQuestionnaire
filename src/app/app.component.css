@@ -1,0 +1,18 @@
+form{
+    width: 600px;
+    margin: 20px auto;
+    border: 2px solid rosybrown;
+    background-color: rgba(32, 178, 171, 0.041);
+}
+.container{
+    width: 450px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.validation{
+    color: red;
+    font-size: 12px;
+}
+
